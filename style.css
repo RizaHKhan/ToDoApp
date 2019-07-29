@@ -1,0 +1,35 @@
+body {
+    background-color: #d9d9d9;
+}
+
+.border-bottom {
+    border-color: black !important;
+}
+
+li {
+    list-style: none;
+}
+
+.danger {
+    color: #DC3545;
+}
+
+.success{
+    color: #28A745;
+}
+
+.delete {
+    display: none;
+}
+
+i:hover {
+    color: grey;
+}
+
+li:first-child .fa-arrow-up{
+    pointer-events: none;
+}
+    
+li:last-child .fa-arrow-down{
+    pointer-events: none;
+}
